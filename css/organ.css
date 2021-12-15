@@ -342,8 +342,7 @@ header{
 .card-image1, .card-image2, .card-image3,
 .card-image4, .card-image5, .card-image6{
 	position: relative;
-    /*background: linear-gradient(135deg, #0099F7, #F11712); */
-
+    transform-style: preserve-3d;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
 }
@@ -396,6 +395,7 @@ header{
 	grid-template-rows: 1fr;
 	border-bottom-left-radius: 18px;
 	border-bottom-right-radius: 18px;
+	transform-style: preserve-3d;
 	background: #66bbff;
 }
 
@@ -405,6 +405,7 @@ header{
 	justify-content: center;
 	flex-direction: column;
 	padding: 10px;
+	transform-style: preserve-3d;
 	color: white;
 }
 .card-stats .type{

@@ -17,7 +17,7 @@ a{
 	display: block;
 	text-decoration: none;
 }
-.conatiner{ss
+.conatiner{
 	margin: 0 auto;
 	padding: 0 22px;
 }
@@ -750,7 +750,7 @@ header{
 }
 .block3{
 	grid-column-start: 1;
-    grid-column-end: 3;
+  grid-column-end: 3;
 }
 .grid_main h1{
 	font-size: calc(24px + 0.5vw);
@@ -1224,8 +1224,8 @@ header{
 	text-align: center;
 	border-radius: 18px;
 	transform-style: preserve-3d;
-    transform: perspective(1000px);
-    z-index: 3;
+  transform: perspective(1000px);
+  z-index: 3;
 }
 .card-elemnts{
 	position: absolute;
@@ -1235,23 +1235,22 @@ header{
 }
 .card-image1, .card-image2, .card-image3{
 	position: relative;
-    /*background: linear-gradient(135deg, #0099F7, #F11712); */
-
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  transform-style: preserve-3d;
 }
 .card-image1{
 	grid-area: image;
 	background: url(../images/ArtWork/mkh2.webp) center;
-    background-size: cover;
+  background-size: cover;
 }
 .card-image2{
 	background: url(../images/ArtWork/mkl5.webp) center;
-    background-size: cover;
+  background-size: cover;
 }
 .card-image3{
 	background: url(../images/ArtWork/mkh1.webp) center;
-    background-size: cover;
+  background-size: cover;
 }
 .card-text{
 	margin-top: 15px;
@@ -1272,6 +1271,7 @@ header{
 	grid-template-rows: 1fr;
 	border-bottom-left-radius: 18px;
 	border-bottom-right-radius: 18px;
+	transform-style: preserve-3d;
 	background: #66bbff;
 }
 
@@ -1281,6 +1281,7 @@ header{
 	justify-content: center;
 	flex-direction: column;
 	padding: 10px;
+	transform-style: preserve-3d;
 	color: white;
 }
 .card-stats .type{
@@ -1352,6 +1353,7 @@ footer{
 	transition: .5s;
 	animation: animate22 30s linear infinite;
 }
+
 @keyframes animate22
 {
 	0%
